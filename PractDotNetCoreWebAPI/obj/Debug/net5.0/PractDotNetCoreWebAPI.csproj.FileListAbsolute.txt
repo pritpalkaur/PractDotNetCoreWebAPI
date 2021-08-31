@@ -58,3 +58,13 @@ C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\obj\Debug\n
 C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\obj\Debug\net5.0\ref\PractDotNetCoreWebAPI.dll
 C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\obj\Debug\net5.0\PractDotNetCoreWebAPI.pdb
 C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\obj\Debug\net5.0\PractDotNetCoreWebAPI.genruntimeconfig.cache
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\obj\Debug\net5.0\PractDotNetCoreWebAPI.csproj.AssemblyReference.cache
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\PractDotNetCoreWebAPI.StaticWebAssets.xml
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\pritp\Documents\PractDotNetCoreWebAPI\PractDotNetCoreWebAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
