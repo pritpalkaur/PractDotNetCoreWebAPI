@@ -34,7 +34,7 @@ namespace PractDotNetCoreWebAPI.Controllers
         //POST : /api/ApplicationUser/Register
         public async Task<Object> PostApplicationUser(ApplicationUserModel model)
         {
-            model.Role = "Admin";
+            model.Role = "admin";
             var applicationUser = new ApplicationUser()
             {
                 UserName = model.UserName,
@@ -66,29 +66,20 @@ namespace PractDotNetCoreWebAPI.Controllers
                 //Get role assigned to the user
                 var role = await _userManager.GetRolesAsync(user);
                 IdentityOptions _options = new IdentityOptions();
-                var token = "test";
-                try
+
+                var tokenDescriptor = new SecurityTokenDescriptor
                 {
-                    var tokenDescriptor = new SecurityTokenDescriptor
+                    Subject = new ClaimsIdentity(new Claim[]
                     {
-                        Subject = new ClaimsIdentity(new Claim[]
-    {
                         new Claim("UserID",user.Id.ToString()),
                         new Claim(_options.ClaimsIdentity.RoleClaimType,role.FirstOrDefault())
-    }),
-                        Expires = DateTime.UtcNow.AddDays(1),
-                        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.JWT_Secret)), SecurityAlgorithms.HmacSha256Signature)
-                    };
-                    var tokenHandler = new JwtSecurityTokenHandler();
-                    var securityToken = tokenHandler.CreateToken(tokenDescriptor);
-                    token = tokenHandler.WriteToken(securityToken);
-                }
-                catch (Exception ex)
-                {
-
-                    throw ex;
-                }
-
+                    }),
+                    Expires = DateTime.UtcNow.AddDays(1),
+                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.JWT_Secret)), SecurityAlgorithms.HmacSha256Signature)
+                };
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var securityToken = tokenHandler.CreateToken(tokenDescriptor);
+                var token = tokenHandler.WriteToken(securityToken);
                 return Ok(new { token });
             }
             else
