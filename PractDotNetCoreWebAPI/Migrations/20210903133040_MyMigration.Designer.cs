@@ -10,7 +10,7 @@ using PractDotNetCoreWebAPI.Models;
 namespace PractDotNetCoreWebAPI.Migrations
 {
     [DbContext(typeof(AuthenticationContext))]
-    [Migration("20210831051146_MyMigration")]
+    [Migration("20210903133040_MyMigration")]
     partial class MyMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -9,6 +9,8 @@ using PractDotNetCoreWebAPI.Repositories;
 using PractDotNetCoreWebAPI.Dtos;
 using PractDotNetCoreWebAPI.Models;
 using PractDotNetCoreWebAPI.dto;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace PractDotNetCoreWebAPI.Controllers
 {
@@ -18,15 +20,18 @@ namespace PractDotNetCoreWebAPI.Controllers
     {
         private readonly ICustomerRepository repository;
         private readonly ILogger<CustomerController> logger;
-
-        public CustomerController(ICustomerRepository repository, ILogger<CustomerController> logger)
+        private UserManager<ApplicationUser> _userManager;
+        public CustomerController(UserManager<ApplicationUser> userManager,ICustomerRepository repository, ILogger<CustomerController> logger)
         {
             this.repository = repository;
             this.logger = logger;
-        }
-
+            _userManager = userManager;
+        
+    }
+       
         // GET /Customers
         [HttpGet]
+        [Authorize]
         public async Task<IEnumerable<CustomerDto>> GetCustomersAsync(string name = null)
         {
             var Customers = (await repository.GetCustomerAsync())
