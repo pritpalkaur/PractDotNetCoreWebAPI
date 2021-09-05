@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5RLUr9SvxYsb3hPMI9SgELTTbRjwWaOpM2SrLqDLTV7n4kiG5aywZTugBDfzdktEcGBL8K3MsvpoCnwac9d0Ew==",
+  "dgSpecHash": "nFWhlV8AZhoFOvJslpRQvOPEXBWDsTmxF4C/5DZZEKu53g3giXFaC868PM3ayAhaQstpNQ9KTHv9+os+5y2cEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pritp\\Documents\\Angular\\JWT-Authentication-with-.Net-Core-Web-API-and-Angular-7-master\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\pritp\\Documents\\PractDotNetCoreWebAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
