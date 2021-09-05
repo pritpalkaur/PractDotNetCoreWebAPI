@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nFWhlV8AZhoFOvJslpRQvOPEXBWDsTmxF4C/5DZZEKu53g3giXFaC868PM3ayAhaQstpNQ9KTHv9+os+5y2cEA==",
+  "dgSpecHash": "QJlX13XAWX7n7PmuDCpH+aYI5F5jbPXyV+aiYGeIbI871jb3BPZ4+ZEEpNJ9qPxHHA/ncMLFYWZ+D5Nf2R0/tw==",
   "success": true,
   "projectFilePath": "C:\\Users\\pritp\\Documents\\PractDotNetCoreWebAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -176,6 +176,7 @@
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\pritp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\2.2.0\\microsoft.visualstudio.web.codegeneration.2.2.0.nupkg.sha512",
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\2.2.0\\microsoft.visualstudio.web.codegeneration.contracts.2.2.0.nupkg.sha512",
     "C:\\Users\\pritp\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\2.2.0\\microsoft.visualstudio.web.codegeneration.core.2.2.0.nupkg.sha512",
@@ -210,6 +211,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\pritp\\.nuget\\packages\\swashbuckle.aspnetcore\\2.2.0\\swashbuckle.aspnetcore.2.2.0.nupkg.sha512",
+    "C:\\Users\\pritp\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\2.2.0\\swashbuckle.aspnetcore.swagger.2.2.0.nupkg.sha512",
+    "C:\\Users\\pritp\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\2.2.0\\swashbuckle.aspnetcore.swaggergen.2.2.0.nupkg.sha512",
+    "C:\\Users\\pritp\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\2.2.0\\swashbuckle.aspnetcore.swaggerui.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
