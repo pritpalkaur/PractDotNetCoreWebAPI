@@ -37,6 +37,7 @@ namespace WebAPI
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IPaymentDetailRepository, PaymentDetailRepository>();
 
             services.AddDbContext<AuthenticationContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection")));

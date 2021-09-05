@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
             return customers;
         }
         [HttpGet]
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [Route("ForAdmin")]
         public string GetForAdmin()
         {

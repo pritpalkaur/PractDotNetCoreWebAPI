@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <tr *ngFor="let pd of service.list">
+    <td (click)="populateForm(pd)">{{pd.CardOwnerName}}</td>
+    <td (click)="populateForm(pd)">{{pd.CardNumber}}</td>
+    <td >{{pd.ExpirationDate}}</td>
+    <td >this is test</td>
+
+    <td>
+      <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.PMId)"></i>
+    </td>
+  </tr>
+</table> 
+
+<!-- <div c *ngIf="let pd of service.list">
+  <ul class="list-group">
+    <li class="list-group-item"><strong>Username : </strong>{{pd.CardOwnerName}}</li>
+    <li class="list-group-item"><strong>FullName : </strong>{{pd.CardNumber}}</li>
+    <li class="list-group-item"><strong>Email : </strong>{{pd.ExpirationDate}}</li>
+  </ul>
+</div> -->

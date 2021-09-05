@@ -15,6 +15,9 @@ import { HomeComponent } from './home/home.component';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
+import { PaymentDetailsComponent } from './payment-details/payment-details.component';
+import { PaymentDetailComponent } from './payment-details/payment-detail/payment-detail.component';
+import { PaymentDetailListComponent } from './payment-details/payment-detail-list/payment-detail-list.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ForbiddenComponent } from './forbidden/forbidden.component';
     LoginComponent,
     HomeComponent,
     AdminPanelComponent,
-    ForbiddenComponent
+    ForbiddenComponent,
+    PaymentDetailsComponent,
+    PaymentDetailComponent,
+    PaymentDetailListComponent
   ],
   imports: [
     BrowserModule,
