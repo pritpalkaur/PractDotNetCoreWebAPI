@@ -22,5 +22,8 @@ export class AdminPanelComponent implements OnInit {
       },
     );
   }
-
+  onLogout() {
+    localStorage.removeItem('token');
+    this.router.navigate(['/user/login']);
+  }
 }

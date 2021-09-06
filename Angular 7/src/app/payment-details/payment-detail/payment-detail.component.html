@@ -27,7 +27,7 @@
       <div class="input-group">
         <div class="input-group-prepend">
           <div class="input-group-text bg-white">
-            <i class="fas fa-calendar-alt"  [class.green-icon]="ExpirationDate.valid" [class.red-icon]="ExpirationDate.invalid && ExpirationDate.touched"></i>
+            <i class="fas fa-calendar-alt"  [class.red-icon]="ExpirationDate.valid" [class.red-icon]="ExpirationDate.invalid && ExpirationDate.touched"></i>
           </div>
         </div>
         <input name="ExpirationDate" #ExpirationDate="ngModel" [(ngModel)]="service.formData.ExpirationDate" class="form-control"

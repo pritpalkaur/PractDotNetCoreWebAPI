@@ -1,0 +1,19 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="nav-link" routerLink="/home">home</a> 
+    <a class="nav-link" routerLink="/adminpanel">General Panel</a>      
+    <a class="nav-link" routerLink="/payment">Payment </a>
+    <a class="nav-link" routerLink="/customer">Customer </a>
+    <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>   
+</nav>
+
+<table class="table table-hover">
+    <tr *ngFor="let pd of service.list">
+      <td >{{pd.fullName}}</td>
+      <td >{{pd.accountType}}</td>
+      <td >{{pd.amount}}</td>
+      <td>this is test</td>
+      <td>
+        <!-- <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.Id)"></i> -->
+      </td>
+    </tr>
+  </table> 

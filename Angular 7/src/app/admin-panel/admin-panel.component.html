@@ -1,4 +1,10 @@
-
+<nav class="navbar navbar-dark bg-dark">
+  <a class="nav-link" routerLink="/home">home</a> 
+  <a class="nav-link" routerLink="/adminpanel">General Panel</a>      
+  <a class="nav-link" routerLink="/payment">Payment </a>
+  <a class="nav-link" routerLink="/customer">customer </a>
+  <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+</nav>
 <div class="card m-5" style="width:18rem" *ngIf="userDetails">
   <ul class="list-group">
     <li class="list-group-item"><strong>Username : </strong>{{userDetails.userName}}</li>

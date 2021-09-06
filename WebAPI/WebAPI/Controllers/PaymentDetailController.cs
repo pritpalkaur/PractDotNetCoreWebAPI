@@ -65,16 +65,20 @@ namespace WebAPI.Controllers
         [HttpGet("{id}")]
         //[Authorize(Roles = "Customer")]
         //[Route("ForCustomer")]
-        public async Task<ActionResult<PaymentDetail>> GetPaymentDetail(int id)
+        public IList<PaymentDetail> GetPaymentDetail(int id)
         {
-            var paymentDetail = await _context.PaymentDetails.FindAsync(id);
-
-            if (paymentDetail == null)
+            IList<PaymentDetail> listPaymentDestails;
+            try
             {
-                return NotFound();
+                listPaymentDestails = repository.GetPaymentDetailAsync(id);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
             }
 
-            return paymentDetail;
+            return listPaymentDestails;
         }
 
         // POST: api/PaymentDetail

@@ -9,5 +9,6 @@ namespace WebAPI.Repositories
     public interface IPaymentDetailRepository
     {
         Task<IEnumerable<PaymentDetail>> GetPaymentDetailAsync();
+        IList<PaymentDetail> GetPaymentDetailAsync(int Id);
      }
 }

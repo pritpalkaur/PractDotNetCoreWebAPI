@@ -18,6 +18,7 @@ import { ForbiddenComponent } from './forbidden/forbidden.component';
 import { PaymentDetailsComponent } from './payment-details/payment-details.component';
 import { PaymentDetailComponent } from './payment-details/payment-detail/payment-detail.component';
 import { PaymentDetailListComponent } from './payment-details/payment-detail-list/payment-detail-list.component';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PaymentDetailListComponent } from './payment-details/payment-detail-lis
     ForbiddenComponent,
     PaymentDetailsComponent,
     PaymentDetailComponent,
-    PaymentDetailListComponent
+    PaymentDetailListComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,

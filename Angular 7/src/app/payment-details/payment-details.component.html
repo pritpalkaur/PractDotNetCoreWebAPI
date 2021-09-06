@@ -1,10 +1,17 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="nav-link" routerLink="/home">home</a>      
+   <a class="nav-link" routerLink="/adminpanel">General Panel</a>      
+  <a class="nav-link" routerLink="/payment">Payment </a>
+  <a class="nav-link" routerLink="/customer">customer </a>
+  <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+</nav>
 <div class="jumbtron">
    <hr>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <app-payment-detail></app-payment-detail>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
       <app-payment-detail-list></app-payment-detail-list>
     </div>
   </div>

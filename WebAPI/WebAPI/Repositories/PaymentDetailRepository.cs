@@ -19,6 +19,9 @@ namespace WebAPI.Repositories
             return await _context.PaymentDetails.ToListAsync();
         }
 
-
+        public IList<PaymentDetail> GetPaymentDetailAsync(int Id)
+        {
+            return _context.PaymentDetails.Where(p => p.PMId == Id).ToList();
+        }
     }
 }

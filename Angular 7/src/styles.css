@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #04c582;;
+    background-color: #f1f1f1;;
 }
 
 input.form-control,input.form-control:focus{
-    background-color: #636b7b;
-    color: #fff;
-    border: 1px solid #636b7b;
+    background-color: #eaecf0;
+    color: rgb(10, 9, 9);
+    border: 1px solid #fbfdff;
 
 }
 
@@ -16,7 +16,7 @@ input.form-control:focus{
 
 button[type=submit].btn{
     border-radius: 20px;
-    background-color: #04c582;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ div.form-group.required>label:first-child:after{
   .wrapped-div {
     -webkit-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background: #2e3137;
+    background: #e0e6f3;
     padding: 30px;
     width: 90%;
     max-width: 450px;
@@ -75,7 +75,7 @@ div.form-group.required>label:first-child:after{
     padding: 30px 40px 10px 40px;
     cursor: pointer;
     color: #545d6a;
-    border-bottom: 2px solid #545d6a;
+    border-bottom: 2px solid #e1e7f0;
   }
 
   .tab-header h2:focus {

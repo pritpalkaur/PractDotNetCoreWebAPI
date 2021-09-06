@@ -8,6 +8,7 @@ import { RegistrationComponent } from './user/registration/registration.componen
 import { LoginComponent } from './user/login/login.component';
 import { HomeComponent } from './home/home.component';
 import { PaymentDetailsComponent } from './payment-details/payment-details.component';
+import { CustomerComponent } from './customer/customer.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'/user/login',pathMatch:'full'},
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path:'home',component:HomeComponent,canActivate:[AuthGuard]},
   {path:'forbidden',component:ForbiddenComponent},
   {path:'payment',component:PaymentDetailsComponent,canActivate:[AuthGuard],data :{permittedRoles:['Admin']}},
-  {path:'adminpanel',component:AdminPanelComponent,canActivate:[AuthGuard],data :{permittedRoles:['Admin']}}
+  {path:'adminpanel',component:AdminPanelComponent,canActivate:[AuthGuard]},
+  {path:'customer',component:CustomerComponent,canActivate:[AuthGuard],data :{permittedRoles:['Customer']}}
 ];
 
 @NgModule({
