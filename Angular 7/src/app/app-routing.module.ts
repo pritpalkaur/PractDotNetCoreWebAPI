@@ -23,7 +23,7 @@ const routes: Routes = [
   {path:'forbidden',component:ForbiddenComponent},
   {path:'payment',component:PaymentDetailsComponent,canActivate:[AuthGuard],data :{permittedRoles:['Admin']}},
   {path:'adminpanel',component:AdminPanelComponent,canActivate:[AuthGuard]},
-  {path:'customer',component:CustomerComponent,canActivate:[AuthGuard],data :{permittedRoles:['Customer']}}
+  {path:'customer',component:CustomerComponent,canActivate:[AuthGuard]}
 ];
 
 @NgModule({
